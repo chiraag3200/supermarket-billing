@@ -26,18 +26,28 @@ password : admin#123
 GET API End Point : http://localhost:8000/api/items
 
 Search API End Points : http://localhost:8000/api/items/?category=food&subcategory=fruit&name=apple
+
                       : http://localhost:8000/api/items/?category=food&subcategory=fruit
+
                       : http://localhost:8000/api/items/?category=food&name=apple
+                      
                       : http://localhost:8000/api/items/?subcategory=fruit&name=apple
+                      
                       : http://localhost:8000/api/items/?name=apple
+                      
                       : http://localhost:8000/api/items/?category=food
+                      
                       : http://localhost:8000/api/items/?subcategory=fruit
 
 
 POST API End Points : http://localhost:8000/api/items/
+                    
                     : http://localhost:8000/api/subcategory/
+                    
                     : http://localhost:8000/api/category/ 
 
 PATCH API End Points : http://localhost:8000/api/items/primaryKey/
+                    
                      : http://localhost:8000/api/subcategory/primaryKey/
+                    
                      : http://localhost:8000/api/category/primaryKey/
